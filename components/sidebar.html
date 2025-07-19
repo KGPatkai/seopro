@@ -1,0 +1,120 @@
+<!-- Blog Sidebar -->
+<div class="col-lg-4">
+    <div class="sticky-top" style="top: 100px;">
+        <!-- Search -->
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+                <h6 class="mb-0"><i class="fas fa-search me-2"></i>Cari Artikel</h6>
+            </div>
+            <div class="card-body">
+                <div class="input-group">
+                    <input type="text" id="sidebarSearchInput" class="form-control" placeholder="Kata kunci...">
+                    <button class="btn btn-primary" onclick="searchFromSidebar()">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Categories -->
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+                <h6 class="mb-0"><i class="fas fa-folder me-2"></i>Kategori</h6>
+            </div>
+            <div class="card-body">
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2">
+                        <a href="javascript:void(0)" onclick="filterBlog('seo')" class="text-decoration-none">
+                            <i class="fas fa-chevron-right me-2 text-primary"></i>SEO Tips
+                            <span class="badge bg-light text-dark ms-2">8</span>
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="javascript:void(0)" onclick="filterBlog('umkm')" class="text-decoration-none">
+                            <i class="fas fa-chevron-right me-2 text-primary"></i>UMKM Guide
+                            <span class="badge bg-light text-dark ms-2">5</span>
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="javascript:void(0)" onclick="filterBlog('digital-marketing')" class="text-decoration-none">
+                            <i class="fas fa-chevron-right me-2 text-primary"></i>Digital Marketing
+                            <span class="badge bg-light text-dark ms-2">6</span>
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="javascript:void(0)" onclick="filterBlog('google-ads')" class="text-decoration-none">
+                            <i class="fas fa-chevron-right me-2 text-primary"></i>Google Ads
+                            <span class="badge bg-light text-dark ms-2">4</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" onclick="filterBlog('all')" class="text-decoration-none text-primary fw-bold">
+                            <i class="fas fa-list me-2"></i>Semua Artikel
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Latest Articles -->
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+                <h6 class="mb-0"><i class="fas fa-clock me-2"></i>Artikel Terbaru</h6>
+            </div>
+            <div class="card-body">
+                <div class="mb-3 pb-3 border-bottom">
+                    <h6 class="mb-1">
+                        <a href="blog/seo-untuk-umkm.html" class="text-decoration-none">
+                            Cara Mudah SEO untuk UMKM: Panduan Lengkap 2024
+                        </a>
+                    </h6>
+                    <small class="text-muted">
+                        <i class="fas fa-calendar me-1"></i>15 Desember 2024
+                    </small>
+                </div>
+                <div class="mb-3 pb-3 border-bottom">
+                    <h6 class="mb-1">
+                        <a href="#" class="text-decoration-none">
+                            5 Kesalahan SEO yang Sering Dilakukan UMKM
+                        </a>
+                    </h6>
+                    <small class="text-muted">
+                        <i class="fas fa-calendar me-1"></i>12 Desember 2024
+                    </small>
+                </div>
+                <div class="mb-3 pb-3 border-bottom">
+                    <h6 class="mb-1">
+                        <a href="#" class="text-decoration-none">
+                            Google My Business: Wajib untuk Bisnis Lokal
+                        </a>
+                    </h6>
+                    <small class="text-muted">
+                        <i class="fas fa-calendar me-1"></i>10 Desember 2024
+                    </small>
+                </div>
+                <div>
+                    <h6 class="mb-1">
+                        <a href="#" class="text-decoration-none">
+                            Riset Keyword untuk Pemula: Tools Gratis
+                        </a>
+                    </h6>
+                    <small class="text-muted">
+                        <i class="fas fa-calendar me-1"></i>8 Desember 2024
+                    </small>
+                </div>
+            </div>
+        </div>
+        
+        <!-- CTA Card -->
+        <div class="card bg-gradient-primary text-white">
+            <div class="card-body text-center">
+                <i class="fas fa-rocket fa-3x mb-3 text-warning"></i>
+                <h6 class="mb-3">Butuh Bantuan SEO?</h6>
+                <p class="mb-3 small">Konsultasi gratis untuk menganalisis website Anda dan strategi SEO terbaik.</p>
+                <a href="contact.html" class="btn btn-warning btn-sm">
+                    <i class="fab fa-whatsapp me-2"></i>Diskusi via WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

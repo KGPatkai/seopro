@@ -1,0 +1,48 @@
+Tolong anda tambahkan elemen visual dan struktur yang konsisten si setiap halaman. Tambahkan dan pastikan elemen-elemen penting ini: 
+
+1. Header (navigasi) yang konsisten di semua halaman dengan menu utama:
+   - Beranda
+   - Tentang
+   - Layanan
+   - Portofolio
+   - Blog
+   - Kontak
+
+2. Footer konsisten di semua halaman, berisi:
+   - Hak cipta / copyright
+   - Navigasi tambahan (duplikat menu utama)
+   - CTA seperti “Hubungi Sekarang” atau “Konsultasi Gratis”
+   - Kontak atau social media (bisa placeholder)
+
+3. Sidebar (jika diperlukan) di halaman blog dan artikel, berisi:
+   - Kategori artikel
+   - Artikel terbaru
+   - Tombol CTA kecil ke halaman layanan atau kontak
+
+4. Breadcrumb navigasi (contoh: Beranda > Blog > SEO untuk UMKM) di semua halaman kecuali homepage.
+
+5. Gunakan layout dan margin/padding yang konsisten agar semua halaman terlihat seimbang dan rapi.
+
+6. Gunakan font dan warna yang sama di semua halaman (sesuaikan dengan tema biru tua dan oranye seperti di situs solveradigital.com)
+
+7. Tambahkan elemen Call-to-Action (CTA) di setiap halaman:
+   - Di homepage: tombol “Lihat Portofolio” dan “Konsultasi Gratis”
+   - Di layanan: “Tanya tentang layanan ini”
+   - Di blog: “Diskusi via WhatsApp”
+
+8. Pastikan setiap halaman memiliki struktur `<title>` dan `<meta description>` yang unik tapi konsisten formatnya:
+   Contoh format: Judul Halaman | [Nama Saya] – SEO Specialist
+
+9. Tempatkan logo (sementara bisa gunakan logo dari https://solveradigital.com/) dan pastikan muncul di semua halaman di kiri atas header.
+
+10. Gunakan sistem modular: header.html, footer.html, sidebar.html, lalu gunakan JavaScript fetch() untuk menyisipkan di semua halaman agar mudah dikelola.
+
+11. Pastikan desain responsif dan tetap konsisten di mobile view.
+
+Website ini bukan dummy. Ini adalah real project saya sebagai SEO Specialist untuk portofolio pribadi yang akan saya host di GitHub. Pastikan struktur dan desainnya profesional dan siap ditampilkan ke perekrut atau klien.
+
+
+Tampilkan juga satu komponen atau section yang menampilkan:
+- Pencapaian atau hasil SEO saya (bisa dummy data sementara, tapi beri desain visual yang menarik)
+- Testimoni (boleh placeholder juga)
+- Logo atau nama brand yang pernah saya bantu (bisa pakai placeholder)
